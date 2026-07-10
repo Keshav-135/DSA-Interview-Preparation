@@ -1,7 +1,10 @@
 # Arrays
+---
+This section contains interview questions based on the Array data structure.
 
-This section contains Array interview questions solved in Java and organized by problem-solving patterns.
+**Definition:** An array is a linear data structure that stores elements of the same data type in contiguous memory locations and allows direct access using an index.
 
+---
 ## Patterns Covered
 
 - Two Pointers
@@ -16,4 +19,4 @@ Each solution includes:
 - Time Complexity
 - Space Complexity
 - Approach
-- Interview Notes (where applicable)
+
