@@ -59,72 +59,6 @@ The array is modified in-place without using extra memory.
 
 ---
 
-## 📝 Revision Notes
-
-🧠 **Remember this in one line:**
-
-> **Fast pointer finds the next unique element, Slow pointer stores it.**
-
-### When should this pattern come to mind?
-
-✅ Array is **sorted**
-
-✅ Need to **remove duplicates**
-
-✅ Need **in-place modification**
-
-✅ Extra space is **not allowed**
-
-### Pointer Movement
-
-```text
-i = Slow Pointer (Last Unique)
-
-j = Fast Pointer (Scan Array)
-
-1 1 2 2 3 4 4
-
-i
-↓
-
-j
-↓
-```
-
-If
-
-```text
-nums[i] == nums[j]
-```
-
-➡️ Ignore duplicate.
-
-If
-
-```text
-nums[i] != nums[j]
-```
-
-➡️ Move `i++`
-
-➡️ Copy
-
-```text
-nums[i] = nums[j]
-```
-
-### Interview Trick
-
-If you hear:
-
-- Sorted Array
-- Remove Duplicates
-- In-place
-
-👉 Think **Fast & Slow Two Pointers** immediately.
-
----
-
 ## 🧩 Pattern Category
 
 **Two Pointers**
@@ -147,8 +81,3 @@ If you hear:
 
 ✔️ Solved
 
----
-
-## 📅 Date Solved
-
-10-07-2026
